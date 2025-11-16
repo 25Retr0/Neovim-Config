@@ -18,4 +18,9 @@ require("options");
 require("keymaps");
 require("config.lazy");
 
+-- Show Inline Messages
+vim.diagnostic.config({
+  virtual_text = true, -- enable inline messages
+})
+
 vim.cmd.colorscheme("nordic")
